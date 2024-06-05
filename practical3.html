@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .menu
+        {
+            width: 65%;
+            height: 60x;
+            float:right; 
+            padding-top: 10PX;
+        }
+        .menu ul{
+            width: 100%;
+            list-style-type: none;
+        }
+        .menu ul li{
+            display: inline-block;
+            padding-top: 15px;     
+        }
+        .menu ul li a:hover
+        {
+            color:white;
+            background-color: rgb(245, 108, 50);
+        }
+        .menu ul li a{   
+            padding: 15px;
+            color: rgb(22, 21, 21);
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .form1
+        {
+            padding: 20px;
+            margin: 10px;
+            background-color: rgb(50, 46, 46);
+            color:white;
+    
+        }
+        .info
+        {
+            float: right;
+            padding: 20px;
+            margin: 10px;
+            color: rgb(254, 249, 249);
+            background-color: rgb(52, 50, 50);
+            position: absolute;
+            top:1355px;
+            left: 860px;
+            z-index: 1;
+        }
+        #d
+        {
+            width: 300px;
+            height: 30px;
+            margin: 5px;
+            margin-left: 200px;
+            
+        }
+        #B1
+        {
+            width: 70px;
+            height:25px;
+            margin: 5px;
+            margin-left: 200px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="logo">
+           <img src="imgs/hotel-logo.jpg" alt="" width="180px" height="80px" style="float: left; margin-left:200px; padding:5px">
+           <div class="menu" >
+              <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">CARDAPIO</a></li>
+                    <li><a href="">GALRIA DEFOTOS</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTATO</a></li>
+              </ul>
+            </div>
+        </div>
+        <hr>
+        <img src="imgs/mainfoodimg.jpg" alt="" width="100%" height="550px">
+
+        <h2 style="text-align: center ;padding :10px;">CARDAPIO</h2>
+        <div>
+
+            <div class="img1" style="float: left;">
+                <img src="imgs/imgc1.jpg"   width="220px" height="220px" style="margin-left: 180px;border-radius: 155px;padding:30px">
+            </div>
+
+            <div class="img2" >
+                <img src="imgs/imgc2.jpg"  width="220px" height="220px"style="border-radius: 155px;margin-left: 90px;padding:30px ">   
+            </div>
+
+            <div class="img3" style="position: absolute; top:665px; left:700px">
+                <img src="imgs/imgc3.avif " width="240px" height="220px"style="border-radius: 155px;margin-left: 180px;padding:30px">
+            </div>
+            
+        </div>    
+
+        <h2 style="text-align: center;padding:10px">GALRIA DEFOTOS</h2>
+        <div class="imgsC">
+            <img src="imgs/imgc1.jpg"   width="170px" height="120px" style="margin-left: 250px;padding:10px">
+            <img src="imgs/imgG1.jpg" width="170px" height="120px"style="padding:10px ">
+            <img src="imgs/imgG2.jpg" width="170px" height="120px"style="padding:10px ">
+            <img src="imgs/imgc2.jpg"  width="170px" height="120px"style="padding:10px ">
+            <img src="imgs/imgG3.jpg" width="170px" height="120px"style="padding:10px ">
+            <img src="imgs/imgG4.jpg" width="170px" height="120px"style="padding:10px ;margin-left: 250px">
+            <img src="imgs/imgc3.avif " width="170px" height="120px"style="padding:10px">
+            <img src="imgs/imgG5.jpg" width="170px" height="120px"style="padding:10px ">
+            <img src="imgs/imgG6.jpg" width="170px" height="120px"style="padding:10px ">
+            <img src="imgs/imgG7.jpg" width="170px" height="120px"style="padding:10px ">
+        </div>
+       <div class="form1" >
+            <h2  style="text-align: center;">FALE CONOSCO</h2>
+
+            <form action="#"  method="get" style="padding-top:20px">
+                <div><input type="text" id="d" placeholder="Name"></div>
+                <div><input type="email"  id="d"  placeholder="Email"></div>
+                <div> <input type="text" id="d"  placeholder="Assunto"></div>
+                <div><input type="text"  id="d" placeholder="message"></div>
+                <div><input type="submit" id="B1" value="Enviar">
+                </div> 
+                
+            </form>
+            
+            <div class="info">
+                <p><b>Address:</b>
+                    Chinchwad-Bhosari Rd, near CNG GAS PUMP,<br>
+                    Premsadan Housing <br>Society, Ajantha Nagar,<br>
+                    Nigdi, PUNE, Pimpri-Chinchwad,<br>
+                    Maharashtra 411019 <br>
+                    Hours:  Open ⋅ Closes 11pm <br>
+                    Phone: 077760 92233
+
+                    <div class="img" style="padding: 20px;">
+                        <img src="/imgs/facebook.png" alt="" style="margin: 5px;">
+                        <img src="/imgs/google.png" alt="" style="margin: 5px;">
+                        <img src="/imgs/linkedin.png" alt="" style="margin: 5px;">
+                </div>
+                </p>
+            </div>
+
+       </div>
+    </div>
+</body>
+</html>

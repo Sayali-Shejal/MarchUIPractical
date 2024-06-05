@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .box{
+            width: 85%;
+            min-height: 620px;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: rgba(0,0,0,0.35) 0px 15px 15px 15px;
+            border-radius: 10px;
+            
+        }
+        .firstbox
+        {
+            background-color: orangered;
+            float: left;
+            width: 50%;
+            height: 620px;
+            border-radius: 10px;   
+           
+        }
+       .firstbox h1 
+        {
+            text-align: center;
+            padding-top: 200px;
+            color: white;
+        }
+        .firstbox h3{
+            text-align: center;
+            padding-bottom: 30px; 
+            color: white;
+        }
+        #sing
+        {
+            padding: 5px;
+            border-radius: 20px;
+            width: 160px;
+            height: 40px;
+            background-color: orangered;
+            border: 1px solid white;
+            color:white;
+            margin-left: 260px;
+        }
+        .secondBox
+        {
+            padding: 30px auto;
+            margin: 50px;
+        }
+        .input
+        {
+            padding: 20px ;
+            
+        }
+        #name
+        {
+            margin-left: 140px;
+            width: 300px;
+            height: 40px;
+            padding: 8px;
+            background-color: rgb(183, 179, 179);
+            outline: 0;
+            border: 0;
+        }
+        #email
+        {
+            margin-left: 140px;
+            width: 300px;
+            height: 40px;
+            padding: 8px;
+            background-color: rgb(183, 179, 179);
+            outline: 0;
+            border: 0;
+        }
+        #pass
+        {
+            margin-left: 140px;
+            width: 300px;
+            height: 40px;
+            padding: 8px;
+            background-color: rgb(183, 179, 179);
+            outline: 0;
+            border: 0;
+        }
+        #sub
+        {
+            width: 200px;
+            height: 40px;
+            background-color: orangered;
+            margin-left: 180px;
+            border-radius: 20px;
+            
+            border: 0;
+            color: white;
+        }
+        .img
+        {
+            position: absolute;
+            left: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="firstbox">
+
+            <h1>Welcome Back !</h1>
+            <h3 style="text-align:center; padding:10px" >To keep connected with us please Login</h3>
+               <h3 >with your personal info</h3> 
+            
+            <input type="submit" id="sing" value="SIGN IN">
+        </div>
+        <div class="secondBox">
+
+            <h1  style="text-align: center;margin:20px ;padding:10px;">Create Account</h1>
+            <div class="img" >
+                    <img src="/imgs/facebook.png" alt="" style="margin: 5px;">
+                    <img src="/imgs/google.png" alt="" style="margin: 5px;">
+                    <img src="/imgs/linkedin.png" alt="" style="margin: 5px;">
+            </div>
+            <h3 style="text-align: center; margin-top:70px">or use your email for registration</h3>
+
+            <div style="padding: 15px;" >
+                <input type="text" name="" id="name" placeholder="Name">
+            </div>
+                <div style="padding: 15px;">  
+                   <input type="email" name="" id="email" placeholder="Email">
+                </div>
+                <div style="padding: 15px;">  
+                   <input type="password" name="" id="pass" placeholder="Password">
+                </div> 
+                <div style="padding: 20px;">
+                    <input type="submit" id="sub" value="SIGN UP">
+                              
+                 </div>
+        </div>
+    </div>
+</body>
+</html>

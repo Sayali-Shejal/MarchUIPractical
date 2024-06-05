@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.hrader
+{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hrader.logo
+{
+ padding: 10px;
+ margin-right: 10px;
+}
+.menu{
+    
+    padding: 30px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7em;
+     padding: 10px;
+    margin-left: 10px; 
+}
+#s1
+{
+    padding: 5px;
+    margin: 7px;
+    border-radius: 20px;
+}
+.login
+{
+    width: 800px;
+    min-height: 300px;
+    border: 1px solid #000;
+    margin: 150px auto;
+}
+.textinfo
+{ padding: 20px;
+    margin: 10px;
+    float: left;
+}
+.form
+{
+    padding: 5px;
+    margin: 10px; 
+}
+#t1
+{
+    margin-top: 5px;
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#sub1
+{
+    margin: 15px;
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+}
+#sub2
+{
+    
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+}
